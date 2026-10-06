@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+data/raw/*
+data/processed/*
+data/exports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/exports/.gitkeep
+node_modules/
+dist/
+.coverage
+.pytest_cache/
+*.duckdb
+*.wal

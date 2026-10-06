@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+**/.venv/
+**/venv/
+.pytest_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Large datasets / generated data
+*.csv
+*.duckdb
+*.wal
+data/raw/*
+data/processed/*
+data/exports/*
+
+# Backup / temporary files
+*.bak
+*.backup
+*.pre-*
+
+# Logs / generated output
+*.log
+coverage/
+
+# Duplicate / auxiliary project copy
+siyakafile/
